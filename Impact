@@ -1,0 +1,217 @@
+{
+  "config": {"view": {"continuousWidth": 400, "continuousHeight": 300}},
+  "hconcat": [
+    {
+      "data": {"name": "data-094f19b4d5360e0dc94f38f6b2f1528f"},
+      "mark": {"type": "bar", "size": 50},
+      "encoding": {
+        "color": {
+          "field": "val",
+          "legend": {"labelFontSize": 13, "titleFontSize": 14},
+          "scale": {"scheme": "set2"},
+          "title": "Answer",
+          "type": "nominal"
+        },
+        "tooltip": {"field": "val", "type": "nominal"},
+        "x": {
+          "axis": {"labelFontSize": 16},
+          "field": "count",
+          "stack": "normalize",
+          "title": "Proportion",
+          "type": "quantitative"
+        },
+        "y": {
+          "axis": {"labelFontSize": 16},
+          "field": "income_cat",
+          "title": "Income category",
+          "type": "nominal"
+        }
+      },
+      "height": 300,
+      "title": "Elected officials in Washington, D.C. (e.g. the president, member of Congress)",
+      "width": 500
+    },
+    {
+      "data": {"name": "data-3b201677cd41b614c0b2913227e36d1b"},
+      "mark": {"type": "bar", "size": 50},
+      "encoding": {
+        "color": {
+          "field": "val",
+          "legend": {"labelFontSize": 13, "titleFontSize": 14},
+          "scale": {"scheme": "set2"},
+          "title": "Answer",
+          "type": "nominal"
+        },
+        "tooltip": {"field": "val", "type": "nominal"},
+        "x": {
+          "axis": {"labelFontSize": 16},
+          "field": "count",
+          "stack": "normalize",
+          "title": "Proportion",
+          "type": "quantitative"
+        },
+        "y": {
+          "axis": {"labelFontSize": 16},
+          "field": "income_cat",
+          "title": "Income category",
+          "type": "nominal"
+        }
+      },
+      "height": 300,
+      "title": "Elected officials in my state (e.g. governor, state representative)",
+      "width": 500
+    }
+  ],
+  "title": "Perceived impact of institutions",
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
+  "datasets": {
+    "data-094f19b4d5360e0dc94f38f6b2f1528f": [
+      {
+        "income_cat": "4. $125k or more",
+        "val": "1. A significant impact",
+        "count": 623
+      },
+      {
+        "income_cat": "4. $125k or more",
+        "val": "2. Somewhat of an impact",
+        "count": 527
+      },
+      {
+        "income_cat": "4. $125k or more",
+        "val": "3. Just a slight impact",
+        "count": 195
+      },
+      {
+        "income_cat": "4. $125k or more",
+        "val": "4. No impact at all",
+        "count": 43
+      },
+      {
+        "income_cat": "3. $75-125k",
+        "val": "1. A significant impact",
+        "count": 718
+      },
+      {
+        "income_cat": "3. $75-125k",
+        "val": "2. Somewhat of an impact",
+        "count": 584
+      },
+      {
+        "income_cat": "3. $75-125k",
+        "val": "3. Just a slight impact",
+        "count": 237
+      },
+      {"income_cat": "3. $75-125k", "val": "4. No impact at all", "count": 84},
+      {
+        "income_cat": "2. $40-75k",
+        "val": "1. A significant impact",
+        "count": 621
+      },
+      {
+        "income_cat": "2. $40-75k",
+        "val": "2. Somewhat of an impact",
+        "count": 471
+      },
+      {
+        "income_cat": "2. $40-75k",
+        "val": "3. Just a slight impact",
+        "count": 206
+      },
+      {"income_cat": "2. $40-75k", "val": "4. No impact at all", "count": 82},
+      {
+        "income_cat": "1. Less than $40k",
+        "val": "1. A significant impact",
+        "count": 634
+      },
+      {
+        "income_cat": "1. Less than $40k",
+        "val": "2. Somewhat of an impact",
+        "count": 441
+      },
+      {
+        "income_cat": "1. Less than $40k",
+        "val": "3. Just a slight impact",
+        "count": 196
+      },
+      {
+        "income_cat": "1. Less than $40k",
+        "val": "4. No impact at all",
+        "count": 135
+      }
+    ],
+    "data-3b201677cd41b614c0b2913227e36d1b": [
+      {
+        "income_cat": "4. $125k or more",
+        "val": "1. A significant impact",
+        "count": 569
+      },
+      {
+        "income_cat": "4. $125k or more",
+        "val": "2. Somewhat of an impact",
+        "count": 594
+      },
+      {
+        "income_cat": "4. $125k or more",
+        "val": "3. Just a slight impact",
+        "count": 186
+      },
+      {
+        "income_cat": "4. $125k or more",
+        "val": "4. No impact at all",
+        "count": 39
+      },
+      {
+        "income_cat": "3. $75-125k",
+        "val": "1. A significant impact",
+        "count": 675
+      },
+      {
+        "income_cat": "3. $75-125k",
+        "val": "2. Somewhat of an impact",
+        "count": 677
+      },
+      {
+        "income_cat": "3. $75-125k",
+        "val": "3. Just a slight impact",
+        "count": 198
+      },
+      {"income_cat": "3. $75-125k", "val": "4. No impact at all", "count": 71},
+      {
+        "income_cat": "2. $40-75k",
+        "val": "1. A significant impact",
+        "count": 571
+      },
+      {
+        "income_cat": "2. $40-75k",
+        "val": "2. Somewhat of an impact",
+        "count": 551
+      },
+      {
+        "income_cat": "2. $40-75k",
+        "val": "3. Just a slight impact",
+        "count": 182
+      },
+      {"income_cat": "2. $40-75k", "val": "4. No impact at all", "count": 79},
+      {
+        "income_cat": "1. Less than $40k",
+        "val": "1. A significant impact",
+        "count": 530
+      },
+      {
+        "income_cat": "1. Less than $40k",
+        "val": "2. Somewhat of an impact",
+        "count": 492
+      },
+      {
+        "income_cat": "1. Less than $40k",
+        "val": "3. Just a slight impact",
+        "count": 244
+      },
+      {
+        "income_cat": "1. Less than $40k",
+        "val": "4. No impact at all",
+        "count": 139
+      }
+    ]
+  }
+}
