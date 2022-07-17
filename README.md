@@ -1,7 +1,9 @@
 # 5304_fundamentals
 
 Copy the link below in your web browser to view the notebook with the charts: 
-https://nbviewer.org/github/RM-CUBoulder/5304_fundamentals/blob/main/Charts_income_elections_2020.ipynb
+- https://nbviewer.org/github/RM-CUBoulder/5304_fundamentals/blob/main/Charts_income_elections_2020_Party.ipynb
+- https://nbviewer.org/github/RM-CUBoulder/5304_fundamentals/blob/main/Charts_income_elections_2020_Trust.ipynb
+- https://nbviewer.org/github/RM-CUBoulder/5304_fundamentals/blob/main/Charts_income_elections_2020_Voting.ipynb
 
 ## Information
 The text below can also be found in the original notebook:
