@@ -11,10 +11,12 @@ https://github.com/RM-CUBoulder/5304_fundamentals/blob/main/Charts_income_electi
 The data on which these charts are based are from a poll conducted among Americans before the elections of 2020. 
 This poll was used for an article on the blog FiveThirtyEight
 
-#### Chart information
+This survey is for a study assigment and has no relation to FiveThirtyEight.
+
+#### Information about the charts
 - Per income category every bar adds up to 100%.
 - Naturally, the bigger the color, the bigger the share of the accompanying answer.
 - By hovering over a single color you can see the answer it belongs to.
 
 #### Goal
-With the charts below I set out to discover whether there is a relation between the income level of Americans and their attitude towards politics.
+With this survey I set out to discover what information from these charts is most noticeable. 
