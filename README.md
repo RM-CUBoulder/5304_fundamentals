@@ -13,7 +13,8 @@ https://github.com/RM-CUBoulder/5304_fundamentals/blob/main/Charts_income_electi
 The data on which these charts are based are from a poll conducted among Americans before the elections of 2020. 
 This poll was used for an article on the blog FiveThirtyEight
 
-This survey is for a study assigment and has no relation to FiveThirtyEight.
+This survey is part of the final project for the course 'Fundamentals of Data Visualization' as part of the Master Data Science  
+at the University of Colorado Boulder and has no relation to FiveThirtyEight.
 
 #### Information about the charts
 - Per income category every bar adds up to 100%.
